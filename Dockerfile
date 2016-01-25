@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Matt McCormick <matt@mmmccormick.com>
+MAINTAINER Sullivan Valaer <sullivanvalaer@gmail.com>
 
 RUN apt-get update
 RUN apt-get install -y x-window-system

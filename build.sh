@@ -9,5 +9,5 @@ if test ! -f nvidia-driver.run; then
   wget -O nvidia-driver.run $nvidia_driver_uri
 fi
 
-docker build -t opengl-nvidia:${nvidia_version} .
-docker tag opengl-nvidia:${nvidia_version} opengl-nvidia:latest
+docker build -t immersivemedia/opengl-nvidia:${nvidia_version} .
+docker tag opengl-nvidia:${nvidia_version} opengl-nvidia:1.5
